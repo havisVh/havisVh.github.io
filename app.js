@@ -56,7 +56,7 @@ var ttm = `
 </div>`
 
     action=document.getElementById("action").value
-    if(action == "light"){
+    if(action == "act1"){
     temp.replace("light",action);
     var st =context.elem.getAttribute("style")
     temp.replace("PAAA",st)
